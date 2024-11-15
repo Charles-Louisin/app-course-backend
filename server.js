@@ -13,6 +13,7 @@ const swaggerDocument = YAML.load('./docs/swagger.yaml');
 
 const app = express();
 
+
 // Connexion à la base de données et initialisation des données
 const initialize = async () => {
   await connectDB();
